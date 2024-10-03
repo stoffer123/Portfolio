@@ -75,6 +75,9 @@ main{
 
 main .main-text h1{
     color: white;
+    font-family: Impact;
+    font-weight: lighter;
+    text-decoration: none;
     font-size: 40px;
 }
 
