@@ -16,11 +16,12 @@
             <image class="nav-bar-logo" src="Assets/img/img-kitzu-logo.png" ></image>
 
             <div class="nav-bar-paths">
-                <a class="nav-bar-paths-item" href="index.html">About</a>
-                <a class="nav-bar-paths-item">Resumé</a>
-                <a class="nav-bar-paths-item">Portfolio</a>
-                <a class="nav-bar-paths-item">Blog</a>
-                <a class="nav-bar-paths-item">Contact</a>
+                <a data-target="page-main" class="nav-bar-paths-item">Home</a>
+                <a data-target="page-about" class="nav-bar-paths-item">About</a>
+                <a data-target="page-resume" class="nav-bar-paths-item">Resumé</a>
+                <a data-target="page-portfolio" class="nav-bar-paths-item">Portfolio</a>
+                <a data-target="page-blog" class="nav-bar-paths-item">Blog</a>
+                <a data-target="page-contact" class="nav-bar-paths-item">Contact</a>
             </div>
 
         </nav>
@@ -29,11 +30,43 @@
 
     <main>
 
-        <div class="main-text">
+        <div id="page-main" class="page active">
             <h1>Christopher Mikkelsen</h1>
             <span>I'm a Developer</span>
 
         </div>
+
+        <div id="page-about" class="page">
+                
+            <h1>About page</h1>
+
+        </div>
+
+        <div id="page-resume" class="page">
+                
+            <h1>Resumé page</h1>
+
+        </div>
+
+        <div id="page-portfolio" class="page">
+                
+            <h1>Portfolio page</h1>
+
+        </div>
+
+        <div id="page-blog" class="page">
+                
+            <h1>Blog page</h1>
+
+        </div>
+
+        <div id="page-contact" class="page">
+                
+            <h1>Contact page</h1>
+
+        </div>
+
+        <script src="scripts.js"></script>
 
     </main>
 
@@ -53,10 +86,6 @@
 
     </footer>
     
-    <div class="about">
-        <p>LALALALALA</p>
-    
-    </div>
     
 </body>
 

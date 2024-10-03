@@ -1,3 +1,4 @@
+/*---------------------------- Body ----------------------------*/
 body{
     background-image: url("Assets/img/IKK.jpg");
     background-size: 100%;
@@ -14,6 +15,8 @@ body{
     z-index: 0;
 }
 
+
+/*---------------------------- Nav bar ----------------------------*/
 header{
     z-index: 5;
 }
@@ -47,6 +50,7 @@ header{
     z-index: 5;
     text-decoration: none;
     transition: ease-in-out .1s;
+    cursor: pointer;
 
 }
 
@@ -56,10 +60,7 @@ header{
 }
 
 
-.about{
-
-}
-
+/*---------------------------- Main overall styling ----------------------------*/
 main{
     position:fixed;
     top: 30%;
@@ -73,7 +74,16 @@ main{
 
 }
 
-main .main-text h1{
+.page.active {
+    display: block;
+}
+
+.page {
+    display: none;
+}
+
+/*---------------------------- Home page ----------------------------*/
+#page-main h1{
     color: white;
     font-family: Impact;
     font-weight: lighter;
@@ -81,14 +91,54 @@ main .main-text h1{
     font-size: 40px;
 }
 
-main .main-text span{
+#page-main span{
     color: white;
     font-size: 25px;
 }
 
 
+/*---------------------------- About page ----------------------------*/
+#page-about{
+    color:white;
+    font-size: 40px;
+}
 
 
+/*---------------------------- Resumé page ----------------------------*/
+#page-resume{
+    color:white;
+    font-size: 40px;
+}
+
+
+
+
+/*---------------------------- Portfolio page ----------------------------*/
+#page-portfolio{
+    color:white;
+    font-size: 40px;
+}
+
+
+
+/*---------------------------- Blog page ----------------------------*/
+#page-blog{
+    color:white;
+    font-size: 40px;
+}
+
+
+/*---------------------------- Contact page ----------------------------*/
+#page-contact{
+    color:white;
+    font-size: 40px;
+}
+
+
+
+
+
+/*---------------------------- Footer ----------------------------*/
 footer{
     width: 100%;
     display: flex;
